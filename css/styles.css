@@ -1,0 +1,28 @@
+/*This is the navigation bar style formatting, should be same for each page*/
+ul {
+  list-style-type: none;
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgray;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: lightgrey;
+  }
+ /*This is the font styling for h1 titles*/
+ .main-headers{
+    text-shadow: -8px 4px 6px red;
+    font-style: italic;
+    text-align: center;
+ }
+ body{
+    background-color: rgb(244, 198, 207);
+}
