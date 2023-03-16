@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Melissa">
+    <meta name="description" content="Intro to HTML and CSS Basics...">
+    <title>WFB | Final Project</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="main-headers">Contact Me</h1>
+    <main>
+        <form method="" action="">
+            <div class=".input-wrapper">
+            <label for= "input-full-name">Enter Your Name</label>
+            <!-- name, email, subject, message form -->
+            <input id="input-full-name" name="full-name" type="text" placeholder="Your Name">
+        </div>
+        <div class=".input-wrapper">
+            <label for="input-email">Enter Your Email</label>
+            <input id="input-email" name="email" type="email" placeholder="Your Email">
+        </div>
+        <div class=".input-wrapper">
+            <label for="input-subject">Select A Subject</label>
+            <select id="input-subject" name="subject" placeholder="">
+                <option></option>
+                <option value="meeting">Order my e-Book</option>
+                <option value="consultation">Schedule a Consultation</option>
+                <option value="Question">Ask a Question</option>
+            </select>
+        </div>
+        <div class=".input-wrapper">
+            <label for="input-message">Enter Your Message</label>
+            <textarea id="input-message" name="message" placeholder="Your Message" cols="40" rows="10"></textarea>
+        </div>
+        <div class=".input-wrapper">
+            <label for="input-button"></label>
+            <input id="input-button" name="button" type="submit">
+        </div>
+    </form>
+    </main>
+    <footer>
+        <div class="social-links">
+            <p>
+                <a href="https://github.com/mmarketu119" target="_blank">    
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>  
+                </a>
+            </p>
+            <p>&copy; All Rights Reserved to Melissa English</p>
+        </div>
+    </footer>
+    </body>
+</html>

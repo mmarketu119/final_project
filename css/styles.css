@@ -1,3 +1,13 @@
+/*Global Stlyes*/
+a{
+  text-decoration: none;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /*This is the navigation bar style formatting, should be same for each page*/
 ul {
   list-style-type: none;
@@ -5,7 +15,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: darkgray;
+  background-color: black;
 }
 li a {
     display: block;
@@ -19,10 +29,22 @@ li a {
   }
  /*This is the font styling for h1 titles*/
  .main-headers{
-    text-shadow: -8px 4px 6px red;
+    text-shadow: -8px 4px 6px  lightcoral;
     font-style: italic;
     text-align: center;
+    text-size: 25px;
  }
  body{
     background-color: rgb(244, 198, 207);
+}
+label{
+  display: block;
+}
+.input-wrapper{
+  margin: 13px 0 ;
+}
+footer{
+  height: 250px;
+  background-color: salmon;
+
 }
