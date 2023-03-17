@@ -15,12 +15,10 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
 }
 li a {
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -32,9 +30,10 @@ li a {
     text-shadow: -8px 4px 6px  lightcoral;
     font-style: italic;
     text-align: center;
-    text-size: 25px;
+    font-size: 25px;
  }
  body{
+  text-align: center;
     background-color: rgb(244, 198, 207);
 }
 label{
@@ -48,3 +47,21 @@ footer{
   background-color: salmon;
 
 }
+.md-space {
+  /*   padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 22px;
+    padding-bottom: 22px; */
+  /*  2 value combo shorthand  */
+    padding: 22px 32px;
+  }
+  img {
+    width: 300px;
+  /*   padding-top: 10px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    padding-left: 0; */
+    padding:  10px 14px 0 0;
+    -webkit-box-shadow: -10px 8px 12px -4px rgba(0,0,0,0.74); 
+  box-shadow: -10px 8px 12px -4px rgba(0,0,0,0.74);
+  }
